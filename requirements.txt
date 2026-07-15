@@ -1,0 +1,5 @@
+# Core Redis Driver for managing atomic connection streams
+redis==5.0.1
+
+# Professional testing framework to handle concurrent queue assertions
+pytest==8.1.1
