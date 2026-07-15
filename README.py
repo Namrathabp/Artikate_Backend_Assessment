@@ -5,7 +5,7 @@ This repository contains the completed technical assessment for the Backend Deve
 ## Project Architecture
 
 The submission is organized into clear modules corresponding to the assessment sections:
-**`section_1_diagnose/`**: Contains the reproduction and fixed Django database views illustrating an optimized $N+1$ query baseline along with profiler evidence.
+**`section_1_diagnose/`**: Contains the reproduction and fixed Django database views illustrating an optimized N+1 query baseline along with profiler evidence.
 **`section_2_queue/`**: Houses the standalone, rate-limited background job system built natively with Redis pipelines, alongside its concurrent verification test suite.
 **`section_3_tenant/`**: Implements automatic multi-tenant ORM scoping safe for async executions via Python's `contextvars`, accompanied by dynamic data-isolation tests.
 **`DESIGN.md`**: Architectural breakdown covering trade-offs and edge cases for the job queue and rate limiter.
@@ -13,7 +13,7 @@ The submission is organized into clear modules corresponding to the assessment s
 
 ---
 
-## Quick Start & Installation (Under 5 Minutes)
+## Quick Start & Installation
 
 Follow these steps to configure a clean local environment and execute all test suites.
 
